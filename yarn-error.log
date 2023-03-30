@@ -1,0 +1,54 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/19.8.1/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/mayank/.rvm/gems/ruby-2.7.7/bin:/Users/mayank/.rvm/gems/ruby-2.7.7@global/bin:/Users/mayank/.rvm/rubies/ruby-2.7.7/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/mayank/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.8.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.23.35:443 - Local (0.0.0.0:49613)
+      at internalConnect (node:net:1081:16)
+      at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+      at emitLookup (node:net:1357:9)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:103587:28
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:103496:13
+      at module.exports.RawTask.call (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:79584:19)
+      at flush (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:79666:29)
+      at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+npm manifest: 
+  {
+    "name": "main",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~48.0.9",
+      "expo-status-bar": "~1.4.4",
+      "react": "18.2.0",
+      "react-native": "0.71.4"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
