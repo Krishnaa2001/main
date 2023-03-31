@@ -4,15 +4,15 @@ import { BottomTabBarHeightContext, createBottomTabNavigator } from '@react-navi
 import IonIcon from '@reacticons/ionicons';
  
 
-import HomeScreen from './Screen/Home';
-import VehicleScreen from './Screen/Vehicle';
-import ProfileScreen from './Screen/Profile';
-import NotificationScreen from './Screen/Notification';
+import HomeScreen from './Screen/HomeScreen';
+import VehicleScreen from './Screen/VehicleScreen';
+import ProfileScreen from './Screen/ProfileScreen';
+import NotificationScreen from './Screen/NotificationScreen';
 
 //screen names
 const HomeName='Home';
 const vehicleName='Vehicle';
-const profileName='Profile';
+const profileName='Profile';  
 const notificationName='Notification';
 
 const Tab = createBottomTabNavigator();   
